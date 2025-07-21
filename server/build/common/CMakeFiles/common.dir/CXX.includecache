@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jiarong/projects/ddz/common/JsonParse.cpp
+JsonParse.h
+/home/jiarong/projects/ddz/common/JsonParse.h
+cassert
+-
+fstream
+-
+Log.h
+/home/jiarong/projects/ddz/common/Log.h
+
+/home/jiarong/projects/ddz/common/JsonParse.h
+string
+-
+json/json.h
+-
+memory
+-
+
+/home/jiarong/projects/ddz/common/Log.h
+stdarg.h
+-
+stdio.h
+-
+

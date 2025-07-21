@@ -1,0 +1,2 @@
+D:\Qt\Tools\mingw730_64\bin\ar.exe qc libcrypto.a CMakeFiles/crypto.dir/crypto_autogen/mocs_compilation.cpp.obj CMakeFiles/crypto.dir/aescrypto.cpp.obj CMakeFiles/crypto.dir/base64.cpp.obj CMakeFiles/crypto.dir/rsacrypto.cpp.obj
+D:\Qt\Tools\mingw730_64\bin\ranlib.exe libcrypto.a

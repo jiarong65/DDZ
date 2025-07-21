@@ -1,0 +1,2 @@
+D:\Qt\Tools\mingw730_64\bin\ar.exe qc libcard.a CMakeFiles/card.dir/card_autogen/mocs_compilation.cpp.obj CMakeFiles/card.dir/card.cpp.obj CMakeFiles/card.dir/cards.cpp.obj
+D:\Qt\Tools\mingw730_64\bin\ranlib.exe libcard.a

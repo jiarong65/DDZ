@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\communication.cpp.dir/objects.a
+D:\Qt\Tools\mingw730_64\bin\ar.exe qc CMakeFiles\communication.cpp.dir/objects.a @CMakeFiles\communication.cpp.dir\objects1.rsp
+D:\Qt\Tools\mingw730_64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\communication.cpp.dir/objects.a -Wl,--no-whole-archive -o communication.cpp.exe -Wl,--out-implib,libcommunication.cpp.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\communication.cpp.dir\linkLibs.rsp

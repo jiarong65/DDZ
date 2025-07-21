@@ -1,0 +1,2 @@
+D:\Qt\Tools\mingw730_64\bin\ar.exe qc libthread.a CMakeFiles/thread.dir/thread_autogen/mocs_compilation.cpp.obj CMakeFiles/thread.dir/communication.cpp.obj CMakeFiles/thread.dir/robotgraplord.cpp.obj CMakeFiles/thread.dir/robotplayhand.cpp.obj CMakeFiles/thread.dir/taskqueue.cpp.obj
+D:\Qt\Tools\mingw730_64\bin\ranlib.exe libthread.a

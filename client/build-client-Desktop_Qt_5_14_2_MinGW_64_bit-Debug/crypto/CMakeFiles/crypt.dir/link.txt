@@ -1,0 +1,2 @@
+D:\Qt\Tools\mingw730_64\bin\ar.exe qc libcrypt.a CMakeFiles/crypt.dir/crypt_autogen/mocs_compilation.cpp.obj
+D:\Qt\Tools\mingw730_64\bin\ranlib.exe libcrypt.a

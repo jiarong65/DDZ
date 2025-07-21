@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\gamemode.cpp.dir/objects.a
+D:\Qt\Tools\mingw730_64\bin\ar.exe qc CMakeFiles\gamemode.cpp.dir/objects.a @CMakeFiles\gamemode.cpp.dir\objects1.rsp
+D:\Qt\Tools\mingw730_64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\gamemode.cpp.dir/objects.a -Wl,--no-whole-archive -o gamemode.cpp.exe -Wl,--out-implib,libgamemode.cpp.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\gamemode.cpp.dir\linkLibs.rsp

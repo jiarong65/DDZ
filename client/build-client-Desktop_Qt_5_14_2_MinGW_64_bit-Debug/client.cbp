@@ -1,0 +1,1356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="client"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\card\;CMake Files\Qt\;CMake Files\Qt\5.14.2\;CMake Files\Qt\5.14.2\mingw73_64\;CMake Files\Qt\5.14.2\mingw73_64\lib\;CMake Files\Qt\5.14.2\mingw73_64\lib\cmake\;CMake Files\Qt\5.14.2\mingw73_64\lib\cmake\Qt5\;CMake Files\Qt\5.14.2\mingw73_64\lib\cmake\Qt5Core\;CMake Files\Qt\5.14.2\mingw73_64\lib\cmake\Qt5Widgets\;CMake Files\Qt\5.14.2\mingw73_64\lib\cmake\Qt5Gui\;CMake Files\Qt\5.14.2\mingw73_64\lib\cmake\Qt5Multimedia\;CMake Files\Qt\5.14.2\mingw73_64\lib\cmake\Qt5Network\;CMake Files\control\;CMake Files\player\;CMake Files\strategy\;CMake Files\windows\;CMake Files\thread\;CMake Files\tcp\;CMake Files\serialize\;CMake Files\crypto\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="client">
+				<Option output="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/client.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_MULTIMEDIA_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/client_autogen/include"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/card"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/control"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/player"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/stratey"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/thread"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/windows"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/tcp"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/serialize"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/crypto"/>
+					<Add directory="C:/openssl/w64/OpenSSL-Win64/include"/>
+					<Add directory="D:/protobuf/include"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include/QtCore"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/./mkspecs/win32-g++"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include/QtWidgets"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include/QtGui"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include/QtANGLE"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include/QtMultimedia"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include/QtNetwork"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/Makefile&quot;  VERBOSE=1 client"/>
+					<CompileFile command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="client/fast">
+				<Option output="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/client.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_MULTIMEDIA_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/client_autogen/include"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/card"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/control"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/player"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/stratey"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/thread"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/windows"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/tcp"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/serialize"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/crypto"/>
+					<Add directory="C:/openssl/w64/OpenSSL-Win64/include"/>
+					<Add directory="D:/protobuf/include"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include/QtCore"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/./mkspecs/win32-g++"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include/QtWidgets"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include/QtGui"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include/QtANGLE"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include/QtMultimedia"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include/QtNetwork"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/Makefile&quot;  VERBOSE=1 client/fast"/>
+					<CompileFile command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="client_autogen">
+				<Option working_dir="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/Makefile&quot;  VERBOSE=1 client_autogen"/>
+					<CompileFile command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="card">
+				<Option output="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/card/libcard.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/card"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/card"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/card"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/card/card_autogen/include"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/control"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/player"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/stratey"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/thread"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/windows"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/tcp"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/serialize"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/crypto"/>
+					<Add directory="C:/openssl/w64/OpenSSL-Win64/include"/>
+					<Add directory="D:/protobuf/include"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include/QtCore"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/./mkspecs/win32-g++"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/card/Makefile&quot;  VERBOSE=1 card"/>
+					<CompileFile command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/card/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/card/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/card/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="card/fast">
+				<Option output="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/card/libcard.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/card"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/card"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/card"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/card/card_autogen/include"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/control"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/player"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/stratey"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/thread"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/windows"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/tcp"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/serialize"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/crypto"/>
+					<Add directory="C:/openssl/w64/OpenSSL-Win64/include"/>
+					<Add directory="D:/protobuf/include"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include/QtCore"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/./mkspecs/win32-g++"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/card/Makefile&quot;  VERBOSE=1 card/fast"/>
+					<CompileFile command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/card/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/card/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/card/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="card_autogen">
+				<Option working_dir="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/card"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/card/Makefile&quot;  VERBOSE=1 card_autogen"/>
+					<CompileFile command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/card/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/card/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/card/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="control">
+				<Option output="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/control/libcontrol.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/control"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_MULTIMEDIA_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/control"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/control"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/control/control_autogen/include"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/card"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/player"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/stratey"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/thread"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/windows"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/tcp"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/serialize"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/crypto"/>
+					<Add directory="C:/openssl/w64/OpenSSL-Win64/include"/>
+					<Add directory="D:/protobuf/include"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/strategy"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include/QtCore"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/./mkspecs/win32-g++"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include/QtMultimedia"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include/QtNetwork"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include/QtGui"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include/QtANGLE"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/control/Makefile&quot;  VERBOSE=1 control"/>
+					<CompileFile command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/control/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/control/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/control/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="control/fast">
+				<Option output="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/control/libcontrol.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/control"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_MULTIMEDIA_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/control"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/control"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/control/control_autogen/include"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/card"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/player"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/stratey"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/thread"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/windows"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/tcp"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/serialize"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/crypto"/>
+					<Add directory="C:/openssl/w64/OpenSSL-Win64/include"/>
+					<Add directory="D:/protobuf/include"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/strategy"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include/QtCore"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/./mkspecs/win32-g++"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include/QtMultimedia"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include/QtNetwork"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include/QtGui"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include/QtANGLE"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/control/Makefile&quot;  VERBOSE=1 control/fast"/>
+					<CompileFile command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/control/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/control/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/control/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="control_autogen">
+				<Option working_dir="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/control"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/control/Makefile&quot;  VERBOSE=1 control_autogen"/>
+					<CompileFile command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/control/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/control/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/control/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="player">
+				<Option output="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/player/libplayer.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/player"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/player"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/player"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/player/player_autogen/include"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/card"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/control"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/stratey"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/thread"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/windows"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/tcp"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/serialize"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/crypto"/>
+					<Add directory="C:/openssl/w64/OpenSSL-Win64/include"/>
+					<Add directory="D:/protobuf/include"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/strategy"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include/QtCore"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/./mkspecs/win32-g++"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/player/Makefile&quot;  VERBOSE=1 player"/>
+					<CompileFile command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/player/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/player/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/player/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="player/fast">
+				<Option output="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/player/libplayer.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/player"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/player"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/player"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/player/player_autogen/include"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/card"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/control"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/stratey"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/thread"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/windows"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/tcp"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/serialize"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/crypto"/>
+					<Add directory="C:/openssl/w64/OpenSSL-Win64/include"/>
+					<Add directory="D:/protobuf/include"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/strategy"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include/QtCore"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/./mkspecs/win32-g++"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/player/Makefile&quot;  VERBOSE=1 player/fast"/>
+					<CompileFile command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/player/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/player/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/player/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="player_autogen">
+				<Option working_dir="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/player"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/player/Makefile&quot;  VERBOSE=1 player_autogen"/>
+					<CompileFile command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/player/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/player/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/player/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="strategy">
+				<Option output="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/strategy/libstrategy.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/strategy"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/strategy"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/strategy"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/strategy/strategy_autogen/include"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/card"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/control"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/player"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/stratey"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/thread"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/windows"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/tcp"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/serialize"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/crypto"/>
+					<Add directory="C:/openssl/w64/OpenSSL-Win64/include"/>
+					<Add directory="D:/protobuf/include"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include/QtCore"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/./mkspecs/win32-g++"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/strategy/Makefile&quot;  VERBOSE=1 strategy"/>
+					<CompileFile command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/strategy/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/strategy/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/strategy/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="strategy/fast">
+				<Option output="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/strategy/libstrategy.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/strategy"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/strategy"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/strategy"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/strategy/strategy_autogen/include"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/card"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/control"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/player"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/stratey"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/thread"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/windows"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/tcp"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/serialize"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/crypto"/>
+					<Add directory="C:/openssl/w64/OpenSSL-Win64/include"/>
+					<Add directory="D:/protobuf/include"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include/QtCore"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/./mkspecs/win32-g++"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/strategy/Makefile&quot;  VERBOSE=1 strategy/fast"/>
+					<CompileFile command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/strategy/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/strategy/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/strategy/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="strategy_autogen">
+				<Option working_dir="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/strategy"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/strategy/Makefile&quot;  VERBOSE=1 strategy_autogen"/>
+					<CompileFile command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/strategy/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/strategy/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/strategy/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="windows">
+				<Option output="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/windows/libwindows.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/windows"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_MULTIMEDIA_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/windows"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/windows"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/windows/windows_autogen/include"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/card"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/control"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/player"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/stratey"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/thread"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/tcp"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/serialize"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/crypto"/>
+					<Add directory="C:/openssl/w64/OpenSSL-Win64/include"/>
+					<Add directory="D:/protobuf/include"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/strategy"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include/QtCore"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/./mkspecs/win32-g++"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include/QtWidgets"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include/QtGui"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include/QtANGLE"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include/QtMultimedia"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include/QtNetwork"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/windows/Makefile&quot;  VERBOSE=1 windows"/>
+					<CompileFile command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/windows/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/windows/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/windows/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="windows/fast">
+				<Option output="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/windows/libwindows.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/windows"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_MULTIMEDIA_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/windows"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/windows"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/windows/windows_autogen/include"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/card"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/control"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/player"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/stratey"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/thread"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/tcp"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/serialize"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/crypto"/>
+					<Add directory="C:/openssl/w64/OpenSSL-Win64/include"/>
+					<Add directory="D:/protobuf/include"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/strategy"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include/QtCore"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/./mkspecs/win32-g++"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include/QtWidgets"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include/QtGui"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include/QtANGLE"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include/QtMultimedia"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include/QtNetwork"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/windows/Makefile&quot;  VERBOSE=1 windows/fast"/>
+					<CompileFile command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/windows/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/windows/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/windows/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="windows_autogen">
+				<Option working_dir="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/windows"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/windows/Makefile&quot;  VERBOSE=1 windows_autogen"/>
+					<CompileFile command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/windows/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/windows/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/windows/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="thread">
+				<Option output="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/thread/libthread.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/thread"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/thread"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/thread"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/thread/thread_autogen/include"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/card"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/control"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/player"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/stratey"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/windows"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/tcp"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/serialize"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/crypto"/>
+					<Add directory="C:/openssl/w64/OpenSSL-Win64/include"/>
+					<Add directory="D:/protobuf/include"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/strategy"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include/QtCore"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/./mkspecs/win32-g++"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/thread/Makefile&quot;  VERBOSE=1 thread"/>
+					<CompileFile command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/thread/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/thread/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/thread/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="thread/fast">
+				<Option output="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/thread/libthread.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/thread"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/thread"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/thread"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/thread/thread_autogen/include"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/card"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/control"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/player"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/stratey"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/windows"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/tcp"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/serialize"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/crypto"/>
+					<Add directory="C:/openssl/w64/OpenSSL-Win64/include"/>
+					<Add directory="D:/protobuf/include"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/strategy"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include/QtCore"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/./mkspecs/win32-g++"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/thread/Makefile&quot;  VERBOSE=1 thread/fast"/>
+					<CompileFile command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/thread/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/thread/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/thread/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="thread_autogen">
+				<Option working_dir="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/thread"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/thread/Makefile&quot;  VERBOSE=1 thread_autogen"/>
+					<CompileFile command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/thread/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/thread/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/thread/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tcp">
+				<Option output="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/tcp/libtcp.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/tcp"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/tcp"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/tcp"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/tcp/tcp_autogen/include"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/card"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/control"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/player"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/stratey"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/thread"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/windows"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/serialize"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/crypto"/>
+					<Add directory="C:/openssl/w64/OpenSSL-Win64/include"/>
+					<Add directory="D:/protobuf/include"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include/QtCore"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/./mkspecs/win32-g++"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/tcp/Makefile&quot;  VERBOSE=1 tcp"/>
+					<CompileFile command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/tcp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/tcp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/tcp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tcp/fast">
+				<Option output="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/tcp/libtcp.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/tcp"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/tcp"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/tcp"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/tcp/tcp_autogen/include"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/card"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/control"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/player"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/stratey"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/thread"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/windows"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/serialize"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/crypto"/>
+					<Add directory="C:/openssl/w64/OpenSSL-Win64/include"/>
+					<Add directory="D:/protobuf/include"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include/QtCore"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/./mkspecs/win32-g++"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/tcp/Makefile&quot;  VERBOSE=1 tcp/fast"/>
+					<CompileFile command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/tcp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/tcp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/tcp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tcp_autogen">
+				<Option working_dir="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/tcp"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/tcp/Makefile&quot;  VERBOSE=1 tcp_autogen"/>
+					<CompileFile command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/tcp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/tcp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/tcp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="serialize">
+				<Option output="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/serialize/libserialize.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/serialize"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/serialize"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/serialize"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/serialize/serialize_autogen/include"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/card"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/control"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/player"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/stratey"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/thread"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/windows"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/tcp"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/crypto"/>
+					<Add directory="C:/openssl/w64/OpenSSL-Win64/include"/>
+					<Add directory="D:/protobuf/include"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/strategy"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include/QtCore"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/./mkspecs/win32-g++"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/serialize/Makefile&quot;  VERBOSE=1 serialize"/>
+					<CompileFile command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/serialize/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/serialize/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/serialize/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="serialize/fast">
+				<Option output="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/serialize/libserialize.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/serialize"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/serialize"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/serialize"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/serialize/serialize_autogen/include"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/card"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/control"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/player"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/stratey"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/thread"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/windows"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/tcp"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/crypto"/>
+					<Add directory="C:/openssl/w64/OpenSSL-Win64/include"/>
+					<Add directory="D:/protobuf/include"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/strategy"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include/QtCore"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/./mkspecs/win32-g++"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/serialize/Makefile&quot;  VERBOSE=1 serialize/fast"/>
+					<CompileFile command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/serialize/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/serialize/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/serialize/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="serialize_autogen">
+				<Option working_dir="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/serialize"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/serialize/Makefile&quot;  VERBOSE=1 serialize_autogen"/>
+					<CompileFile command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/serialize/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/serialize/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/serialize/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="crypto">
+				<Option output="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/crypto/libcrypto.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/crypto"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/crypto"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/crypto"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/crypto/crypto_autogen/include"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/card"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/control"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/player"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/stratey"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/thread"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/windows"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/tcp"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/serialize"/>
+					<Add directory="C:/openssl/w64/OpenSSL-Win64/include"/>
+					<Add directory="D:/protobuf/include"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include/QtCore"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/./mkspecs/win32-g++"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/crypto/Makefile&quot;  VERBOSE=1 crypto"/>
+					<CompileFile command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/crypto/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/crypto/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/crypto/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="crypto/fast">
+				<Option output="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/crypto/libcrypto.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/crypto"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/crypto"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/crypto"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/crypto/crypto_autogen/include"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/card"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/control"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/player"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/stratey"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/thread"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/windows"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/tcp"/>
+					<Add directory="C:/Users/14047/Desktop/ddz/client/client/serialize"/>
+					<Add directory="C:/openssl/w64/OpenSSL-Win64/include"/>
+					<Add directory="D:/protobuf/include"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/include/QtCore"/>
+					<Add directory="D:/Qt/5.14.2/mingw73_64/./mkspecs/win32-g++"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="D:/Qt/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/crypto/Makefile&quot;  VERBOSE=1 crypto/fast"/>
+					<CompileFile command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/crypto/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/crypto/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/crypto/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="crypto_autogen">
+				<Option working_dir="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/crypto"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/crypto/Makefile&quot;  VERBOSE=1 crypto_autogen"/>
+					<CompileFile command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/crypto/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/crypto/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Qt/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/crypto/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/card/card_autogen/mocs_compilation.cpp">
+			<Option target="card"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/client_autogen/mocs_compilation.cpp">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/control/control_autogen/mocs_compilation.cpp">
+			<Option target="control"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/crypto/crypto_autogen/mocs_compilation.cpp">
+			<Option target="crypto"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/player/player_autogen/mocs_compilation.cpp">
+			<Option target="player"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/qrc_res.cpp">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/serialize/serialize_autogen/mocs_compilation.cpp">
+			<Option target="serialize"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/strategy/strategy_autogen/mocs_compilation.cpp">
+			<Option target="strategy"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/tcp/tcp_autogen/mocs_compilation.cpp">
+			<Option target="tcp"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/thread/thread_autogen/mocs_compilation.cpp">
+			<Option target="thread"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/build-client-Desktop_Qt_5_14_2_MinGW_64_bit-Debug/windows/windows_autogen/mocs_compilation.cpp">
+			<Option target="windows"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/card/card.cpp">
+			<Option target="card"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/card/card.h">
+			<Option target="card"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/card/cards.cpp">
+			<Option target="card"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/card/cards.h">
+			<Option target="card"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/control/bgmcontrol.cpp">
+			<Option target="control"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/control/bgmcontrol.h">
+			<Option target="control"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/control/datamanager.cpp">
+			<Option target="control"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/control/datamanager.h">
+			<Option target="control"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/control/gamecontrol.cpp">
+			<Option target="control"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/control/gamecontrol.h">
+			<Option target="control"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/crypto/aescrypto.cpp">
+			<Option target="crypto"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/crypto/aescrypto.h">
+			<Option target="crypto"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/crypto/base64.cpp">
+			<Option target="crypto"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/crypto/base64.h">
+			<Option target="crypto"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/crypto/rsacrypto.cpp">
+			<Option target="crypto"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/crypto/rsacrypto.h">
+			<Option target="crypto"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/ddz.rc">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/main.cpp">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/player/player.cpp">
+			<Option target="player"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/player/player.h">
+			<Option target="player"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/player/robot.cpp">
+			<Option target="player"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/player/robot.h">
+			<Option target="player"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/player/userplayer.cpp">
+			<Option target="player"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/player/userplayer.h">
+			<Option target="player"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/res.qrc">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/serialize/codec.cpp">
+			<Option target="serialize"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/serialize/codec.h">
+			<Option target="serialize"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/serialize/infomation.pb.cc">
+			<Option target="serialize"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/serialize/infomation.pb.h">
+			<Option target="serialize"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/strategy/playhand.cpp">
+			<Option target="strategy"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/strategy/playhand.h">
+			<Option target="strategy"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/strategy/strategy.cpp">
+			<Option target="strategy"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/strategy/strategy.h">
+			<Option target="strategy"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/tcp/tcpsocket.cpp">
+			<Option target="tcp"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/tcp/tcpsocket.h">
+			<Option target="tcp"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/thread/communication.cpp">
+			<Option target="thread"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/thread/communication.h">
+			<Option target="thread"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/thread/robotgraplord.cpp">
+			<Option target="thread"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/thread/robotgraplord.h">
+			<Option target="thread"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/thread/robotplayhand.cpp">
+			<Option target="thread"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/thread/robotplayhand.h">
+			<Option target="thread"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/thread/taskqueue.cpp">
+			<Option target="thread"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/thread/taskqueue.h">
+			<Option target="thread"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/windows/animationwindow.cpp">
+			<Option target="windows"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/windows/animationwindow.h">
+			<Option target="windows"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/windows/buttongroup.cpp">
+			<Option target="windows"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/windows/buttongroup.h">
+			<Option target="windows"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/windows/cardpanel.cpp">
+			<Option target="windows"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/windows/cardpanel.h">
+			<Option target="windows"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/windows/countdown.cpp">
+			<Option target="windows"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/windows/countdown.h">
+			<Option target="windows"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/windows/endingpanel.cpp">
+			<Option target="windows"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/windows/endingpanel.h">
+			<Option target="windows"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/windows/gamemode.cpp">
+			<Option target="windows"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/windows/gamemode.h">
+			<Option target="windows"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/windows/gamepanel.cpp">
+			<Option target="windows"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/windows/gamepanel.h">
+			<Option target="windows"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/windows/joinroom.cpp">
+			<Option target="windows"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/windows/joinroom.h">
+			<Option target="windows"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/windows/loading.cpp">
+			<Option target="windows"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/windows/loading.h">
+			<Option target="windows"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/windows/login.cpp">
+			<Option target="windows"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/windows/login.h">
+			<Option target="windows"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/windows/mybutton.cpp">
+			<Option target="windows"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/windows/mybutton.h">
+			<Option target="windows"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/windows/scorepanel.cpp">
+			<Option target="windows"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/windows/scorepanel.h">
+			<Option target="windows"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/res.qrc">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/card/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\card\"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/Qt/5.14.2/mingw73_64/lib/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.14.2\mingw73_64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/Qt/5.14.2/mingw73_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.14.2\mingw73_64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/Qt/5.14.2/mingw73_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.14.2\mingw73_64\lib\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/Qt/5.14.2/mingw73_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.14.2\mingw73_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/Qt/5.14.2/mingw73_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.14.2\mingw73_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/Qt/5.14.2/mingw73_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.14.2\mingw73_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/Qt/5.14.2/mingw73_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.14.2\mingw73_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/Qt/5.14.2/mingw73_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.14.2\mingw73_64\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/Qt/5.14.2/mingw73_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.14.2\mingw73_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/Qt/5.14.2/mingw73_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.14.2\mingw73_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/Qt/5.14.2/mingw73_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.14.2\mingw73_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/Qt/5.14.2/mingw73_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.14.2\mingw73_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/Qt/5.14.2/mingw73_64/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.14.2\mingw73_64\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/Qt/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/Qt/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/Qt/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/Qt/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/Qt/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/Qt/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/Qt/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/Qt/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/Qt/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/Qt/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/Qt/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/Qt/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/Qt/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/Qt/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/Qt/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/Qt/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/Qt/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/Qt/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/Qt/5.14.2/mingw73_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.14.2\mingw73_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/Qt/5.14.2/mingw73_64/lib/cmake/Qt5Multimedia/Qt5MultimediaConfig.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.14.2\mingw73_64\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/Qt/5.14.2/mingw73_64/lib/cmake/Qt5Multimedia/Qt5MultimediaConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.14.2\mingw73_64\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/Qt/5.14.2/mingw73_64/lib/cmake/Qt5Multimedia/Qt5Multimedia_AudioCaptureServicePlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.14.2\mingw73_64\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/Qt/5.14.2/mingw73_64/lib/cmake/Qt5Multimedia/Qt5Multimedia_DSServicePlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.14.2\mingw73_64\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/Qt/5.14.2/mingw73_64/lib/cmake/Qt5Multimedia/Qt5Multimedia_QM3uPlaylistPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.14.2\mingw73_64\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/Qt/5.14.2/mingw73_64/lib/cmake/Qt5Multimedia/Qt5Multimedia_QWindowsAudioPlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.14.2\mingw73_64\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/Qt/5.14.2/mingw73_64/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.14.2\mingw73_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/Qt/5.14.2/mingw73_64/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.14.2\mingw73_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/Qt/5.14.2/mingw73_64/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\Qt\5.14.2\mingw73_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/control/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\control\"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/player/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\player\"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/strategy/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\strategy\"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/windows/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\windows\"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/thread/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\thread\"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/tcp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tcp\"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/serialize/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\serialize\"/>
+		</Unit>
+		<Unit filename="C:/Users/14047/Desktop/ddz/client/client/crypto/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\crypto\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

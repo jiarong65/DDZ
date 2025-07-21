@@ -1,0 +1,2 @@
+D:\Qt\Tools\mingw730_64\bin\ar.exe qc libcontrol.a CMakeFiles/control.dir/control_autogen/mocs_compilation.cpp.obj CMakeFiles/control.dir/bgmcontrol.cpp.obj CMakeFiles/control.dir/datamanager.cpp.obj CMakeFiles/control.dir/gamecontrol.cpp.obj
+D:\Qt\Tools\mingw730_64\bin\ranlib.exe libcontrol.a

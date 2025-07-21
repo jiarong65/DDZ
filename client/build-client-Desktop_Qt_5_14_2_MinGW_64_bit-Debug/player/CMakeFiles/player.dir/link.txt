@@ -1,0 +1,2 @@
+D:\Qt\Tools\mingw730_64\bin\ar.exe qc libplayer.a CMakeFiles/player.dir/player_autogen/mocs_compilation.cpp.obj CMakeFiles/player.dir/player.cpp.obj CMakeFiles/player.dir/robot.cpp.obj CMakeFiles/player.dir/userplayer.cpp.obj
+D:\Qt\Tools\mingw730_64\bin\ranlib.exe libplayer.a

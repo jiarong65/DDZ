@@ -1,0 +1,2 @@
+D:\Qt\Tools\mingw730_64\bin\ar.exe qc libstrategy.a CMakeFiles/strategy.dir/strategy_autogen/mocs_compilation.cpp.obj CMakeFiles/strategy.dir/playhand.cpp.obj CMakeFiles/strategy.dir/strategy.cpp.obj
+D:\Qt\Tools\mingw730_64\bin\ranlib.exe libstrategy.a

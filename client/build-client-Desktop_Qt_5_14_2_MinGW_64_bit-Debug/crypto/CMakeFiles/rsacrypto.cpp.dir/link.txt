@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\rsacrypto.cpp.dir/objects.a
+D:\Qt\Tools\mingw730_64\bin\ar.exe qc CMakeFiles\rsacrypto.cpp.dir/objects.a @CMakeFiles\rsacrypto.cpp.dir\objects1.rsp
+D:\Qt\Tools\mingw730_64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\rsacrypto.cpp.dir/objects.a -Wl,--no-whole-archive -o rsacrypto.cpp.exe -Wl,--out-implib,librsacrypto.cpp.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\rsacrypto.cpp.dir\linkLibs.rsp

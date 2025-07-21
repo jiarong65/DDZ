@@ -1,0 +1,2 @@
+D:\Qt\Tools\mingw730_64\bin\ar.exe qc libtcp.a CMakeFiles/tcp.dir/tcp_autogen/mocs_compilation.cpp.obj CMakeFiles/tcp.dir/tcpsocket.cpp.obj
+D:\Qt\Tools\mingw730_64\bin\ranlib.exe libtcp.a
